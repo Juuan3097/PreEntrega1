@@ -23,7 +23,7 @@ while ( calificar != "FIN"){
         else {
             console.log("El alumno/a "+nombre_alumno+" está desaprobado");
         }
-
+        calificar = prompt('Escriba "FIN" para salir');
 }
 
 calcular_promedio();
