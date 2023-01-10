@@ -13,7 +13,7 @@ function calcular_promedio() {
 
 while ( calificar != "FIN"){
     
-    calificar = prompt('Escriba "FIN" para salir');
+
     let nombre_alumno = prompt("Escriba el nombre y apellido del alumno o alumna a calificar");
 
     calcular_promedio();
@@ -30,6 +30,7 @@ while ( calificar != "FIN"){
         else {
             console.log("Debe introducir valores positivos entre 1 y 10");
         }
-
+        
+        calificar = prompt('Escriba "FIN" para salir');
 }
 
